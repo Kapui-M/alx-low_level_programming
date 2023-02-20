@@ -8,10 +8,11 @@
  */
 int main(void)
 {
-int i;
-for (i = 1; i <= 10; i++)
+char ch;
+for (ch = '0'; ch <= '9'; ch++)
 {
-printf("%d", i);
-putchar('\n');
+putchar(ch);
 }
+putchar('\n');
+return (0);
 }
