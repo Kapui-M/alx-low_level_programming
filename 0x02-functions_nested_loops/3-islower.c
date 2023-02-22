@@ -3,6 +3,8 @@
  * _islower - returns boolean value
  *
  * Return:int (Success)
+ *r:int param
+ *
  */
 int _islower(int r)
 {
