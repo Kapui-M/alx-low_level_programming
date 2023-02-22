@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _alpha - returns boolean value
+ * _isalpha - returns boolean value
  * @r:returns 1 or 0.
  * Return:int (Success)
  */
