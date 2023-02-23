@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print_to_98 - sum function 
- * @n: param to be added 
- *
- * Return:int (Success)
+ *print_to_98 - sum function 
+ *@n: param to be added 
+ *Return:int (Success)
  */
 void print_to_98(int n)
 {
