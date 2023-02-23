@@ -2,7 +2,6 @@
 /**
  * _isupper - checks uppercase
  * @c: to be checked
- * @b: param to be added
  * Return:int (Success)
  */
 int _isupper(int c)
