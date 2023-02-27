@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include "main.h"
+#include <string.h>
+/**
+ * puts_half - function
+ * @str: param 
+ *
+ * Return: success
+ */
+void puts_half(char *str)
+{
+int i;
+int j;
+int l;
+j = strlen(str);
+l = j/2;
+if ((l % 2) == 1)
+{
+for (i = l; i < j; i++)
+{
+printf("%c", str[i]);
+}
+}
+return;
+}
