@@ -12,6 +12,7 @@ int i;
 int j;
 char c;
 j = strlen(s);
+j--;
 for (i = j; i >= 0; i--)
 {
 c = s[i];
