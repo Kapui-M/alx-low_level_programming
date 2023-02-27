@@ -4,7 +4,7 @@
 /**
  * _strlen - prints string length
  * @s : string param
- * 
+ *
  * Return: int (success)
  *
  */
