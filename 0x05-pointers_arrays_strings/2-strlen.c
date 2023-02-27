@@ -3,7 +3,7 @@
 /**
  * _strlen - prints string length
  * @s : string param
- * return : return int val
+ * Return : int (success)
  */
 int _strlen(char *s)
 {
