@@ -1,0 +1,33 @@
+#include "main.h"
+#include <stdio.h>
+#include <string.h>
+
+/**
+ * rev_string - function used
+ *
+ *
+ * Return: success
+ */
+
+void rev_string(char *s)
+{
+int i;
+int j;
+int k;
+j = strlen(s);
+char t[strlen(s)];
+k = 0;
+s[j] = '\0';
+j--;
+for(i = j; i >= 0; i--)
+{
+s[i] = t[k];
+k++;
+}
+for (i = 0; i <= j; i++)
+{
+s[i] = t[i];
+}
+printf("%s", s);
+return;
+}
