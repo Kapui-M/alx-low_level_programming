@@ -1,0 +1,22 @@
+#include "main.h"
+#include <stdio.h>
+#include <string.h>
+/**
+ * print_rev - strlen function
+ * @s : param
+ * Return: void
+ */
+void print_rev(char *s)
+{
+int i;
+int j;
+char c;
+j=strlen(s);
+for (i = j; i >= 0; i--)
+{
+c = s[i];
+printf("%c\n", c);
+j--;
+}
+return;
+}
