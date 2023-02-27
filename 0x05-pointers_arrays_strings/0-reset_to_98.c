@@ -3,7 +3,7 @@
 /**
  * reset_to_98 - pointer converter
  *
- * @*n: param converting
+ * @n: param converting
  *
  */
 void reset_to_98(int *n)
