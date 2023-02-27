@@ -19,5 +19,6 @@ c = s[i];
 printf("%c", c);
 j--;
 }
+printf("\n");
 return;
 }
